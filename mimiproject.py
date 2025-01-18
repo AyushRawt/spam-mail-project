@@ -71,7 +71,7 @@ print(classification_report(testY, prediction_on_testdata))
 print('\nConfusion Matrix')
 print(confusion_matrix(testY, prediction_on_testdata))
 
-input = ["GENT! We are trying to contact you. Last weekends draw shows that you won a £1000 prize GUARANTEED. Call 09064012160. Claim Code K52. Valid 12hrs only. 150ppm"]
+input = ["Did you hear about the new ""Divorce Barbie""? It comes with all of Ken's stuff!"]
 
 # convert text to feature vectors
 input_features = feature_extraction.transform(input)
